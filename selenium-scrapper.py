@@ -16,9 +16,9 @@ import logging.config
 logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s', level=logging.INFO, handlers=[logging.StreamHandler()])
 logger = logging.getLogger('selenium-scrapper')
 chrome_options = Options()  
-chrome_options.add_argument("--headless") 
+# chrome_options.add_argument("--headless")
 chrome_options.add_argument('--ignore-certificate-errors')
-chrome_options.add_argument('--incognito')
+# chrome_options.add_argument('--incognito')
 # Establish chrome driver and go to report site URL
 url = "https://nsw2u.com/"
 driver = webdriver.Chrome(options=chrome_options)
