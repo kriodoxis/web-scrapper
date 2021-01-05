@@ -1,0 +1,18 @@
+{
+    "items":[
+        {
+            "name":"NVIDIA GPUs - RTX 3060 Ti",
+            "website":"nowinstock.net",
+            "url":"https://www.nowinstock.net/computers/videocards/nvidia/rtx3060ti/",
+            "min":"399.00",
+            "max":"475.00"
+        },
+        {
+            "name":"NVIDIA GPUs - RTX 3070",
+            "website":"nowinstock.net",
+            "url":"https://www.nowinstock.net/computers/videocards/nvidia/rtx3070/",
+            "min":"399.00",
+            "max":"475.00"
+        }
+    ]
+}
